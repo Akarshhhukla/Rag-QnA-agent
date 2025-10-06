@@ -1,0 +1,23 @@
+{
+  "extractive": {
+    "model_name": "Extractive QA (DistilBERT)",
+    "f1_score": 0.7805731008122319,
+    "exact_match": 0.64,
+    "avg_processing_time": 0.08336720037460327,
+    "total_questions": 500
+  },
+  "generative": {
+    "model_name": "Generative QA (T5)",
+    "f1_score": 0.7576850972840748,
+    "exact_match": 0.614,
+    "avg_processing_time": 0.2013980221748352,
+    "total_questions": 500
+  },
+  "hybrid": {
+    "model_name": "Hybrid QA (DistilBERT + T5)",
+    "f1_score": 0.7870927451917229,
+    "exact_match": 0.654,
+    "avg_processing_time": 0.14398577356338502,
+    "total_questions": 500
+  }
+}
